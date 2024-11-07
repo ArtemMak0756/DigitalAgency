@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Agency Company Website</title>
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <div class="header__logo">
+                <img src="./images/Logo.png" alt="">
+                <img src="./images/SquareUp.png" alt="">
+            </div>
+            <div class="header__nav">
+                <a href="#">Home</a>
+                <a href="services.html">Services</a>
+                <a href="works.html">Work</a>
+                <a href="process.html">Process</a>
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+            </div>
+            <a id="contactBTN" href="contact.html"><button id="contactBTN2" type="submit">Contact Us</button></a>
+            <!-- Бургер-меню для мобильных устройств -->
+            <button class="burger-menu__button" onclick="toggleMenu()">☰</button>
+            <nav class="burger-menu__nav">
+                <a href="#">Home</a>
+                <a href="services.html">Services</a>
+                <a href="works.html">Work</a>
+                <a href="process.html">Process</a>
+                <a href="about.html">About</a>
+                <a href="careers.html">Careers</a>
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+    <div class="diagramma">
+        <div class="diagramma__container">
+            <div class="diagramma__title">
+                <p>
+                    A Digital Product Studio
+                    <br>
+                    that will Work
+                </p>
+            </div>
+            <div class="diagramma__menu">
+                <div class="diagramma__menu--nav">
+                    <p>For <span>Startups</span>  , <span> Enterprise leaders</span> , <span>Media & Publishers</span>  and  <span>Social Good</span></p>
+                </div>
+            </div>
+            <div class="diagramma__buttons">
+                <button class="greyButton" type="submit">Our Works</button>
+                <button class="greenButton" type="submit">Contact Us</button>
+            </div>
+        </div>
+    </div>
+    <div class="diagrammaFooter">
+        <div class="diagrammaFooter__container">
+            <img src="./images/Logo%20(1).png" alt="">
+            <img src="./images/Logo%20(2).png" alt="">
+            <img src="./images/Logo%20(3).png" alt="">
+            <img src="./images/Logo%20(4).png" alt="">
+            <img src="./images/Logo%20(5).png" alt="">
+            <img src="./images/Logo%20(6).png" alt="">
+        </div>
+    </div>
+    <div class="servicesPreview">
+        <div class="servicesPreview__container"></div>
+    </div>
+    <div class="services">
+        <div class="services__container">
+            <div class="services__block">
+                <div class="services__block--image">
+                    <img src="./images/Icon.png" alt="">
+                </div>
+                <div class="services__block--title">Design</div>
+                <div class="services__block--text" id="block1">
+                    At Squareup, our design team is passionate about creating stunning, user-centric designs that
+                    captivate your audience and elevate your brand. We believe that great design is not just about
+                    aesthetics; it's about creating seamless and intuitive user experiences.
+                </div>
+                <div class="services__block--button">
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+            <div id="services__block2" class="services__block">
+                <div class="services__block--image">
+                    <img src="./images/Icon%20(2).png" alt="">
+                </div>
+                <div class="services__block--title">Engineering</div>
+                <div class="services__block--text" id="block2">
+                    Our engineering team combines technical expertise with a passion for innovation to build robust
+                    and scalable digital solutions. We leverage the latest technologies and best practices to
+                    deliver high-performance applications tailored to your specific needs.
+                </div>
+                <div class="services__block--button">
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+            <div class="services__block">
+                <div class="services__block--image">
+                    <img src="./images/Icon%20(2).png" alt="">
+                </div>
+                <div class="services__block--title">Project Management</div>
+                <div class="services__block--text" id="block3">
+                    Our experienced project management team ensures that your projects are delivered on time, within budget,
+                    and according to your specifications. We follow industry-standard methodologies and employ effective
+                    communication and collaboration tools to keep you informed throughout the development process.
+                </div>
+                <div class="services__block--button">
+                    <button type="submit">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="squareUp">
+        <div class="squareUp__preview"></div>
+        <div class="squareUp__main">
+            <div class="squareUp__main--block">
+                <div class="squareUp__main--block-image">
+                    <img src="./images/Icon%20(4).png" alt="">
+                </div>
+                <div class="squareUp__main--block-title">Expertise</div>
+                <div class="squareUp__main--block-text">Our team consists of highly skilled professionals who have a
+                    deep <br> understanding of the digital landscape. We stay updated with the latest <br> industry trends and best practices to deliver cutting-edge solutions.</div>
+            </div>
+            <div class="squareUp__main--block">
+                <div class="squareUp__main--block-image">
+                    <img src="./images/Icon%20(4).png" alt="">
+                </div>
+                <div class="squareUp__main--block-title">Client-Centric Approach</div>
+                <div class="squareUp__main--block-text">We prioritize our clients and their unique needs. We listen to
+                    your ideas, <br> challenges, and goals, and tailor our services to meet your specific <br> requirements. Your
+                    success is our success.</div>
+            </div>
+            <div class="squareUp__main--block">
+                <div class="squareUp__main--block-image">
+                    <img src="./images/Icon%20(5).png" alt="">
+                </div>
+                <div class="squareUp__main--block-title">Results-Driven Solutions</div>
+                <div class="squareUp__main--block-text">Our primary focus is on delivering results. We combine creativity
+                    and <br> technical expertise to create digital products that drive business growth, <br> enhance user experiences,
+                    and provide a competitive advantage.</div>
+            </div>
+            <div class="squareUp__main--block">
+                <div class="squareUp__main--block-image">
+                    <img src="./images/Icon%20(6).png" alt="">
+                </div>
+                <div class="squareUp__main--block-title">Collaborative Partnership</div>
+                <div class="squareUp__main--block-text">We value long-term relationships with our clients. We see ourselves
+                    as your <br> digital partner, providing ongoing support, maintenance, and updates to <br> ensure your digital products
+                    continue to thrive.</div>
+            </div>
+        </div>
+    </div>
+    <div class="clientsSay">
+        <div class="clientsSay__preview"></div>
+        <div class="clientsSay__main">
+            <div class="clientsSay__main--block">
+                <div class="clientsSay__main--block-title">SquareUp has been Instrumental in Transforming our Online Presence. </div>
+                <div class="clientsSay__main--block-text">Their team's expertise in web development and design resulted in
+                    a visually stunning and user-friendly e-commerce platform. Our online sales have skyrocketed, and we couldn't be happier.</div>
+                <div class="clientsSay__main--block-menu">
+                    <div class="clientsSay__main--block-menu__image">
+                        <img src="./images/Profile.png" alt="">
+                    </div>
+                    <div class="clientsSay__main--block-menu__text">
+                        <span>John Smith</span>
+                        <br>
+                        CEO of Chic Boutique
+                    </div>
+                    <div class="clientsSay__main--block-menu__button">
+                        <button type="submit">Open Website</button>
+                    </div>
+                </div>
+            </div>
+            <div class="clientsSay__main--block">
+                <div class="clientsSay__main--block-title">Working with SquareUp was a breeze. </div>
+                <div class="clientsSay__main--block-text">They understood our vision for a mobile app that streamlined our
+                    food delivery service. The app they delivered exceeded our expectations, and our customers love the
+                    seamless ordering experience. SquareUp is a trusted partner we highly recommend.</div>
+                <div class="clientsSay__main--block-menu">
+                    <div class="clientsSay__main--block-menu__image">
+                        <img src="./images/Profile%20(1).png" alt="">
+                    </div>
+                    <div class="clientsSay__main--block-menu__text">
+                        <span>Sarah Johnson</span>
+                        <br>
+                        Founder of HungryBites.
+                    </div>
+                    <div class="clientsSay__main--block-menu__button">
+                        <button type="submit">Open Website</button>
+                    </div>
+                </div>
+            </div>
+            <div class="clientsSay__main--block">
+                <div class="clientsSay__main--block-title">SquareUp developed a comprehensive booking and reservation system for our event management company </div>
+                <div class="clientsSay__main--block-text">Their attention to detail and commitment to delivering a user-friendly
+                    platform was evident throughout the project. The system has streamlined our operations and enhanced
+                    our clients' event experiences.</div>
+                <div class="clientsSay__main--block-menu">
+                    <div class="clientsSay__main--block-menu__image">
+                        <img src="./images/Profile%20(2).png" alt="">
+                    </div>
+                    <div class="clientsSay__main--block-menu__text">
+                        <span>Mark Thompson</span>
+                        <br>
+                        CEO of EventMasters
+                    </div>
+                    <div class="clientsSay__main--block-menu__button">
+                        <button type="submit">Open Website</button>
+                    </div>
+                </div>
+            </div>
+            <div class="clientsSay__main--block">
+                <div class="clientsSay__main--block-title">ProTech Solutions turned to SquareUp to automate our workflow </div>
+                <div class="clientsSay__main--block-text">They delivered an exceptional custom software solution. The
+                    system has significantly increased our productivity and reduced manual errors. SquareUp's expertise
+                    and professionalism have made them a trusted technology partner.</div>
+                <div class="clientsSay__main--block-menu">
+                    <div class="clientsSay__main--block-menu__image">
+                        <img src="./images/Profile%20(3).png" alt="">
+                    </div>
+                    <div class="clientsSay__main--block-menu__text">
+                        <span>Laura Adams</span>
+                        <br>
+                        COO of ProTech Solutions.
+                    </div>
+                    <div class="clientsSay__main--block-menu__button">
+                        <button type="submit">Open Website</button>
+                    </div>
+                </div>
+            </div>
+            <div class="clientsSay__main--block">
+                <div class="clientsSay__main--block-title">SquareUp designed and developed a captivating web portal for showcasing our real estate listings. </div>
+                <div class="clientsSay__main--block-text">The platform is visually appealing and easy to navigate, allowing
+                    potential buyers to find their dream homes effortlessly. SquareUp's expertise in the real estate industry
+                    is unmatched.</div>
+                <div class="clientsSay__main--block-menu">
+                    <div class="clientsSay__main--block-menu__image">
+                        <img src="./images/Profile%20(4).png" alt="">
+                    </div>
+                    <div class="clientsSay__main--block-menu__text">
+                        <span>Michael Anderson</span>
+                        <br>
+                        Founder of Dream Homes Realty.
+                    </div>
+                    <div class="clientsSay__main--block-menu__button">
+                        <button type="submit">Open Website</button>
+                    </div>
+                </div>
+            </div>
+            <div class="clientsSay__main--block">
+                <div class="clientsSay__main--block-title">FitLife Tracker wanted a mobile app that tracked fitness activities and provided personalized workout plans. </div>
+                <div class="clientsSay__main--block-text">SquareUp's team developed an intuitive and feature-rich app that
+                    has helped our users stay motivated and achieve their fitness goals. We highly recommend SquareUp
+                    for any health and fitness app development needs.</div>
+                <div class="clientsSay__main--block-menu">
+                    <div class="clientsSay__main--block-menu__image">
+                        <img src="./images/Profile%20(5).png" alt="">
+                    </div>
+                    <div class="clientsSay__main--block-menu__text">
+                        <span>Emily Turner</span>
+                        <br>
+                        CEO of FitLife Tracker
+                    </div>
+                    <div class="clientsSay__main--block-menu__button">
+                        <button type="submit">Open Website</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="questions">
+        <div class="questions__preview"></div>
+        <div class="questions__main">
+            <div class="accordion" id="accordion1">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What services does SquareUp provide?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How can SquareUp help my business?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>SquareUp can streamline your business processes, improve your online presence, and create br digital solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>What industries does SquareUp work with?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>SquareUp works with a variety of industries including technology, healthcare, finance, retail, and more.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How long does it take to complete a project with SquareUp?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Project timelines vary based on the complexity and scope, but we work efficiently to meet deadlines and ensure quality delivery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion" id="accordion2">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Do you offer ongoing support after the project is completed?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>SquareUp offers a range of services including design, engineering, and project management. We specialize in user experience design, web development, mobile app development, custom software development, branding and identity, and more.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Can you work with existing design or development frameworks?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>SquareUp can streamline your business processes, improve your online presence, and create br digital solutions tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>How involved will I be in the project development process?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>SquareUp works with a variety of industries including technology, healthcare, finance, retail, and more.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <h3>Can you help with website or app maintenance and updates?</h3>
+                        <div class="plus-icon"></div>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Project timelines vary based on the complexity and scope, but we work efficiently to meet deadlines and ensure quality delivery.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="thanks">
+        <div class="thanks__preview"></div>
+        <div class="thanks__main">
+            <div class="thanks__main--inputs">
+                <div class="input-container">
+                    <p>Full Name</p>
+                    <input placeholder="Type here" class="input-field" type="text">
+                    <label class="input-label">Type here</label>
+                    <span class="input-highlight"></span>
+                </div>
+                <div class="input-container">
+                    <p>Email</p>
+                    <input placeholder="Type here" class="input-field" type="email">
+                    <label  class="input-label">Type here</label>
+                    <span class="input-highlight"></span>
+                </div>
+            </div>
+            <div class="thanks__main--checkboxes">
+                <p>Why are you contacting us?</p>
+                <div class="thanks__main--checkboxes--box">
+                    <form class="my-form">
+                        <div class="thanks__main--checkboxes--box1">
+                            <div id="check1">
+                                <input id="check-1" type="checkbox" />
+                                <label for="check-1">Web Design</label>
+                            </div>
+                            <div id="check3">
+                                <input id="check-3" type="checkbox" />
+                                <label for="check-3">Collaboration</label>
+                            </div>
+
+                        </div>
+                        <div class="thanks__main--checkboxes--box2">
+                            <div id="check2">
+                                <input checked="" id="check-2" type="checkbox" />
+                                <label for="check-2">Mobile App Design</label>
+                            </div>
+                            <div id="check4" >
+                                <input id="check-4" type="checkbox" />
+                                <label for="check-4">Others</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="thanks__main--slider">
+                <h3>Your Budget</h3>
+                <p>Slide to indicate your budget range</p>
+                <input id="myRange" class="slider" value="50" max="100" min="0" type="range">
+
+            </div>
+            <div class="thanks__main--message">
+                <div class="input-container2">
+                    <p>Your Message</p>
+                    <input placeholder="Type here" class="input-field" type="text">
+                    <label class="input-label">Type here</label>
+                    <span class="input-highlight"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainFooter">
+        <div class="mainFooter__container">
+            <div class="mainFooter__logo">
+                <img src="./images/Logo.png" alt="">
+                <img id="mainFooter__logo2" src="./images/SquareUp.png" alt="">
+            </div>
+            <div class="mainFooter__nav">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Work</a>
+                <a href="#">Process</a>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="mainFooter__links">
+                <p>Stay Connected</p>
+                <div class="mainFooter__links--facebook">
+                    <a href="#"><img src="./images/Icon%20(7).png" alt=""></a>
+                </div>
+                <div class="mainFooter__links--twitter">
+                    <a href="#"><img src="./images/Icon%20(8).png" alt=""></a>
+                </div>
+                <div class="mainFooter__links--linkedin">
+                    <a href="#">  <img src="./images/Icon%20(9).png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer_row">
+                <div class="footer_text">© 2021 . Starboard Pte Ltd </div>
+                <div class="footer_tex2">
+                    <p>hello@squareup.com</p>
+                    <p>+91 91813 23 2309</p>
+                    <p>Somewhere in the World</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./js/script.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>-->
+</html>

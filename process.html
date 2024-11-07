@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./css/process.css">
+</head>
+<body>
+<header class="header">
+    <div class="header__container">
+        <div class="header__logo">
+            <img src="./images/Logo.png" alt="">
+            <img src="./images/SquareUp.png" alt="">
+        </div>
+        <div class="header__nav">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="works.html">Work</a>
+            <a href="process.html">Process</a>
+            <a href="about.html">About</a>
+            <a href="careers.html">Careers</a>
+        </div>
+        <a id="contactBTN" href="contact.html"><button id="contactBTN2" type="submit">Contact Us</button></a>
+        <!-- Бургер-меню для мобильных устройств -->
+        <button class="burger-menu__button" onclick="toggleMenu()">☰</button>
+        <nav class="burger-menu__nav">
+            <a href="#">Home</a>
+            <a href="services.html">Services</a>
+            <a href="works.html">Work</a>
+            <a href="process.html">Process</a>
+            <a href="about.html">About</a>
+            <a href="careers.html">Careers</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </div>
+</header>
+
+<div class="preview"></div>
+    <div class="squareUp">
+        <div class="squareUp__greeting">
+            <h1>At SquareUp</h1>
+            <p>We follow a structured and collaborative process to ensure the successful delivery of exceptional digital
+                products. Our process combines <br> industry best practices, creative thinking, and a client-centric approach.</p>
+            <h2>Here's an overview of our typical process:</h2>
+        </div>
+        <div class="squareUp__main">
+            <div class="squareUp__main__blocks">
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>01</span>Discovery</h2>
+                    <p>
+                        We begin by thoroughly understanding your business goals, target audience, and project requirements.
+                        We conduct in-depth research to gather insights and define project objectives, allowing us to
+                        develop a tailored strategy.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>02</span>Planning and Strategy</h2>
+                    <p>
+                        Based on the gathered information, we create a comprehensive project <br> plan and strategy. This
+                        includes defining project milestones, timelines, <br> deliverables, and resource allocation. We
+                        collaborate closely with you to <br> align our strategy with your vision.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>03</span>Design</h2>
+                    <p>
+                        Our expert designers translate the project requirements into captivating <br> visual designs. We
+                        create wireframes, mockups, and interactive <br> prototypes to showcase the user interface, user
+                        experience, and overall <br> design aesthetics. We iterate on the designs based on your feedback
+                        until <br> we achieve the perfect look and feel.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>04</span>Development</h2>
+                    <p>
+                        Once the designs are approved, our skilled development team brings <br> them to life. We use cutting-edge
+                        technologies and coding best practices <br> to build robust and scalable digital products. Throughout
+                        the <br> development phase, we maintain open lines of communication to keep <br> you updated on progress
+                        and address any questions or concerns.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>05</span>Testing and Quality Assurance</h2>
+                    <p>
+                        We conduct rigorous testing to ensure that your digital product functions <br> flawlessly across
+                        different devices, browsers, and operating systems. Our <br> quality assurance team meticulously
+                        checks for bugs, usability issues, <br> and performance bottlenecks. We strive for a seamless user
+                        experience <br> and a high level of reliability.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>06</span>Deployment and Launch</h2>
+                    <p>
+                        When your digital product is thoroughly tested and meets your <br> satisfaction, we prepare for
+                        deployment. We handle all the technical <br> aspects of launching your product, ensuring a smooth
+                        transition from <br> development to the live environment. We assist with setting up hosting,<br> configuring
+                        servers, and managing any required integrations.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>07</span>Post-Launch Support</h2>
+                    <p>
+                        Our commitment to your success doesn't end with the launch. We provide <br> ongoing support and
+                        maintenance services to ensure your digital product <br>continues to perform optimally. We offer
+                        different support packages <br> based on your needs, including bug fixes, feature enhancements,
+                        security <br> updates, and technical support.
+                    </p>
+                </div>
+                <div class="squareUp__main__blocks--block">
+                    <h2><span>08</span>Continuous Improvement</h2>
+                    <p>
+                        We believe in continuous improvement and strive to optimize your digital <br> product even after
+                        launch. We monitor user feedback, analytics, and <br> market trends to identify opportunities for
+                        enhancement and growth. We <br> proactively suggest improvements and updates to keep your digital <br>
+                        product ahead of the curve.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="previewFooter"></div>
+    <div class="thanks">
+        <div class="thanks__main">
+            <div class="thanks__main--inputs">
+                <div class="input-container">
+                    <p>Full Name</p>
+                    <input placeholder="Type here" class="input-field" type="text">
+                    <label class="input-label">Type here</label>
+                    <span class="input-highlight"></span>
+                </div>
+                <div class="input-container">
+                    <p>Email</p>
+                    <input placeholder="Type here" class="input-field" type="email">
+                    <label  class="input-label">Type here</label>
+                    <span class="input-highlight"></span>
+                </div>
+            </div>
+            <div class="thanks__main--checkboxes">
+                <p>Why are you contacting us?</p>
+                <div class="thanks__main--checkboxes--box">
+                    <form class="my-form">
+                        <div class="thanks__main--checkboxes--box1">
+                            <div id="check1">
+                                <input id="check-1" type="checkbox" />
+                                <label for="check-1">Web Design</label>
+                            </div>
+                            <div id="check3">
+                                <input id="check-3" type="checkbox" />
+                                <label for="check-3">Collaboration</label>
+                            </div>
+
+                        </div>
+                        <div class="thanks__main--checkboxes--box2">
+                            <div id="check2">
+                                <input checked="" id="check-2" type="checkbox" />
+                                <label for="check-2">Mobile App Design</label>
+                            </div>
+                            <div id="check4" >
+                                <input id="check-4" type="checkbox" />
+                                <label for="check-4">Others</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="thanks__main--slider">
+                <h3>Your Budget</h3>
+                <p>Slide to indicate your budget range</p>
+                <input id="myRange" class="slider" value="50" max="100" min="0" type="range">
+
+            </div>
+            <div class="thanks__main--message">
+                <div class="input-container2">
+                    <p>Your Message</p>
+                    <input placeholder="Type here" class="input-field" type="text">
+                    <label class="input-label">Type here</label>
+                    <span class="input-highlight"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mainFooter">
+        <div class="mainFooter__container">
+            <div class="mainFooter__logo">
+                <img src="./images/Logo.png" alt="">
+                <img id="mainFooter__logo2" src="./images/SquareUp.png" alt="">
+            </div>
+            <div class="mainFooter__nav">
+                <a href="#">Home</a>
+                <a href="#">Services</a>
+                <a href="#">Work</a>
+                <a href="#">Process</a>
+                <a href="#">About</a>
+                <a href="#">Careers</a>
+            </div>
+            <div class="mainFooter__links">
+                <p>Stay Connected</p>
+                <div class="mainFooter__links--facebook">
+                    <a href="#"><img src="./images/Icon%20(7).png" alt=""></a>
+                </div>
+                <div class="mainFooter__links--twitter">
+                    <a href="#"><img src="./images/Icon%20(8).png" alt=""></a>
+                </div>
+                <div class="mainFooter__links--linkedin">
+                    <a href="#">  <img src="./images/Icon%20(9).png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer_row">
+                <div class="footer_text">© 2021 . Starboard Pte Ltd </div>
+                <div class="footer_tex2">
+                    <p>hello@squareup.com</p>
+                    <p>+91 91813 23 2309</p>
+                    <p>Somewhere in the World</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="./js/script.js"></script>
+</body>
+</html>
